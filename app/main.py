@@ -2,9 +2,8 @@
 
 from fastapi import FastAPI
 from app.core.config import settings
-from app.api.routes import resume
+from app.api.routes import resume, jobs      # ← add jobs
 
-# ── Create the FastAPI application instance ────────────────
 app = FastAPI(
     title=settings.APP_NAME,
     description="AI-powered Resume to Job Matching Agent",
@@ -13,9 +12,9 @@ app = FastAPI(
 
 # ── Register routers ───────────────────────────────────────
 app.include_router(resume.router)
+app.include_router(jobs.router)             # ← add this
 
 
-# ── Health check endpoint ──────────────────────────────────
 @app.get("/health", tags=["System"])
 async def health_check():
     return {"status": "ok", "app": settings.APP_NAME}
