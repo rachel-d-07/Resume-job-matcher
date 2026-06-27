@@ -278,7 +278,7 @@ Decoupling. If we swap Adzuna for Indeed tomorrow, the rest of the system doesn'
 
 ## 👨‍💻 Author
 
-**Kennoy** — MSc AI & ML Student
+**Rachel** — MSc AI & ML Student
 
 Building production-ready AI systems from scratch, one phase at a time.
 
