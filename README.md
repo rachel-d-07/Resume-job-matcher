@@ -11,7 +11,7 @@
 [![Docker](https://img.shields.io/badge/Docker-upcoming-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
 
 [![Status](https://img.shields.io/badge/Status-Active%20Development-FFD700?style=flat-square)]()
-[![Phases](https://img.shields.io/badge/Phases%20Complete-5%20of%2010-6C63FF?style=flat-square)]()
+[![Phases](https://img.shields.io/badge/Phases%20Complete-7%20of%2010-6C63FF?style=flat-square)]()
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)]()
 
 <br/>
