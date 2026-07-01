@@ -2,7 +2,7 @@
 
 from fastapi import FastAPI
 from app.core.config import settings
-from app.api.routes import resume, jobs, match, analysis   # ← add analysis
+from app.api.routes import resume, jobs, match, analysis, cover_letter   # ← add
 
 app = FastAPI(
     title=settings.APP_NAME,
@@ -13,7 +13,8 @@ app = FastAPI(
 app.include_router(resume.router)
 app.include_router(jobs.router)
 app.include_router(match.router)
-app.include_router(analysis.router)                        # ← add this
+app.include_router(analysis.router)
+app.include_router(cover_letter.router)                                  # ← add this
 
 
 @app.get("/health", tags=["System"])
